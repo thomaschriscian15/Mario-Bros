@@ -89,8 +89,9 @@
     p {
         color: white;
         font-size: 21px;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-shadow: 10px 10px 10px black;
+        font-weight: 700;
     }
 
     .link-whatsapp img {
