@@ -20,7 +20,7 @@
         height: 50px;
         cursor: pointer;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 700;
         margin-top: 30px;
         text-align: center;
          
@@ -29,15 +29,17 @@
     .meu-botao{
         display: flex;
         font-size: 18px;
+        justify-items: center;
         align-items: center;
+        background: linear-gradient(90deg,rgba(197, 17, 17, 1) 0%, rgba(24, 216, 15, 1)76%);
      
     }
 
     .meu-botao:hover{
-        background-color: #18d80f;
+        background: linear-gradient(90deg,rgba(24, 216, 15, 1) 0%, rgba(197, 17, 17, 1) 76%);
         font-size: 19px;
         transition: 1s ease-in-out;
-        color:#c51111;
+        color:#fff;
     }
 
 
@@ -117,6 +119,8 @@
         font-size: 24px;
         cursor: pointer;
         text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
     }
 
     .header a:hover {
@@ -169,38 +173,7 @@
     
     @media(max-width: 344px) {
     
-    .formulário-fale-conosco{
-        left: -325px;
-    }
-
-
-
-     .header{
-        gap: 15px;
-        margin: 10px;
-     }
-
-     .caixa-principal{
-        font-size: 0;
-     }    
-       
-     .caixa-mãe {
-            padding: 1px;
-        }
     
-        .img-mario-luigi {
-            height: 200px;
-        }
-    
-        .logo-mario {
-            height: 150px;
-    
-        }
-    
-        .titulo-de-entrada{
-            font-size: 15px;
-          
-        }
     
     
 
